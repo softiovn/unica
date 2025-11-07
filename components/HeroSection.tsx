@@ -131,7 +131,7 @@ export default function HeroSection() {
           <Col xs={24} lg={12}>
             <div style={{ textAlign: "center" }}>
               <Image
-                src="/api/placeholder/600/400"
+                src="https://placehold.co/600/400"
                 alt="Học tập trực tuyến"
                 style={{
                   width: "100%",

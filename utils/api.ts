@@ -389,7 +389,7 @@ class UnicaApi {
     // Fallback placeholder image if no image is available
     const courseImage =
       this.getCourseImage(courseData) ||
-      `/api/placeholder/300/200?text=${encodeURIComponent(
+      `https://placehold.co/300/200?text=${encodeURIComponent(
         courseData.title ||
           courseData.course_title ||
           courseData.name ||
